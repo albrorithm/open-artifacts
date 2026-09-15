@@ -7,21 +7,13 @@ I use this for giving my input on large plans that benefit from visual elements,
 It's built to work with Tailscale, also supports ChatGPT's Sites, and should work well with other harnesses (though that's untested)
 
 <p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="docs/images/artifact-comment-mobile.png" width="240" height="519">
-    <img src="docs/images/desktop-overview.png" alt="Open Artifacts: a sample artifact with an open comment; desktop also shows the artifact and private library" width="520">
-  </picture>
+  <a href="docs/images/desktop-overview.png" title="View all three screenshots">
+    <picture>
+      <source media="(max-width: 600px)" srcset="docs/images/artifact-comment-mobile.png" width="240" height="519">
+      <img src="docs/images/desktop-overview.png" alt="Open Artifacts: a sample artifact with an open comment. Open to view all three screenshots." width="900">
+    </picture>
+  </a>
 </p>
-
-<details>
-<summary>More screenshots</summary>
-
-<p align="center">
-  <a href="docs/images/artifact-mobile.png"><img src="docs/images/artifact-mobile.png" alt="A sample artifact on mobile" width="240"></a>
-  <a href="docs/images/library-mobile.png"><img src="docs/images/library-mobile.png" alt="The private library with sample artifacts" width="240"></a>
-</p>
-
-</details>
 
 ## What it does
 
