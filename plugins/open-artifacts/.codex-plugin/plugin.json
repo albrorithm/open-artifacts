@@ -1,0 +1,27 @@
+{
+  "name": "open-artifacts",
+  "version": "1.0.0",
+  "description": "Create, publish, and revise private interactive artifacts with a shared Geist foundation.",
+  "author": {
+    "name": "Open Artifacts"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Open Artifacts",
+    "shortDescription": "Make artifacts. Read comments. Publish revisions.",
+    "longDescription": "Create and revise private interactive artifacts with one shared Geist workflow. Choose Sites or Tailscale once during setup. Sites uses a signed-in browser; Tailscale uses native MCP or a portable file client without a browser. Existing artifact links stay with their original host.",
+    "developerName": "Open Artifacts",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "brandColor": "#171717",
+    "defaultPrompt": [
+      "Create an interactive artifact with Open Artifacts.",
+      "Revise this artifact using its open comments.",
+      "Show my Open Artifacts library."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
